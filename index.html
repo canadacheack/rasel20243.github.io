@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="form_container">
+
+                <h1>Canada Application Checker</h1>
+                <input type="text" id="passport" placeholder="Enter your Passport">
+                <button id="click" onclick="redirect()">Login</button>
+
+        </div>
+        </div>
+    </div>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: url(img/mAP.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .form {
+            background: #fff;
+            padding: 30px;
+            text-align: center;
+            min-height: 187px;
+            box-shadow: 1px -1px 20px white;
+        }        
+        input {
+            display: block;
+            margin: 16px;
+            padding: 12px;
+            font-family: arial;
+            outline: none;
+            border: none;
+            font-size: 18px;
+            width: 90%;
+            background: #ddd;
+            border-radius: 7px;
+        }        
+        h1 {
+            text-align: center;
+            color: black;
+            font-family: arial;
+            font-size: 30px;
+        }
+        button {
+            cursor: pointer;
+            background: #c90c0c;
+            color: white;
+            display: block;
+            margin: 16px;
+            padding: 12px;
+            font-family: arial;
+            outline: none;
+            border: none;
+            font-size: 18px;
+            width: 90%;
+            border-radius: 6px;
+        }
+
+    </style>
+    <script> 
+
+        function redirect(){
+         var test =  document.querySelector('#passport');
+         if(test.value == "EK0187677"){
+                 window.location.href= "ramjan.html"; 
+         }else if (test.value == "EH0215336") {
+            window.location.href= "bulbul.html"; 
+         }else if (test.value == "EE075185"){
+             window.location.href= "angur.html";
+         }else if (test.value == "FJ0552878"){
+            window.location.href= "abulkalam.html"; 
+         }else if (test.value == "A00139021"){
+             window.location.href = "sajol.html";
+         }else if (test.value =="EL0508171"){
+             window.location.href = "sawon.html";
+         }else if (test.value == "597752"){
+             window.location.href = "resel.html";
+         }else if (test.value == "EF0471510"){
+             window.location.href = "manik.html";
+         }else if (test.value == "EJ0407535"){
+             window.location.href = "bellal.html";
+         }else if (test.value =="EF0693100"){
+             window.location.href = "nur.html";
+         }else if (test.value == "EK0520468"){
+             window.location.href = "shobuj.html";
+         }else if (test.value == "A01768753"){
+             window.location.href = "bepolop.html";
+         }else if (test.value == "EG0899947"){
+             window.location.href = "abu.html";
+         }else if (test.value == "EG0049579"){
+             window.location.href = "sharif.html";
+         }else if (test.value == "EK0732249"){
+             window.location.href = "aminul.html";
+         }else if (test.value == "EF0972815"){
+             window.location.href = "shahin.html";
+         }else if (test.value == "EG0073384"){
+             window.location.href = "wadud.html"
+         }else if (test.value == "EL0027466"){
+             window.location.href = "suhel.html";
+         }else if (test.value == "EH0387462"){
+             window.location.href = "arifur.html"
+         }else if (test.value == "EM0007535"){
+             window.location.href = "ashek.html"
+         }else if (test.value == "A08321807"){
+             window.location.href = "momin.html"
+         }else if (test.value == "A01337030"){
+             window.location.href = "shahed.html"
+         }else if (test.value == "EL0473524"){
+             window.location.href = "tazul.html"
+         }else if (test.value == "BY0053079"){
+             window.location.href = "manir.html"
+         }else if (test.value == "EG0448285"){
+             window.location.href = "oliullah.html"
+         }else if (test.value == "A06298866"){
+             window.location.href = "aminur.html"
+         }else if (test.value == "A11220422"){
+             window.location.href = "subrata.html"
+         }else if (test.value == "EL0297856"){
+             window.location.href = "abdur.html"
+         }else if (test.value == "EK0580781"){
+             window.location.href = "kawsar.html"
+         }else if (test.value == "A06881588"){
+             window.location.href = "mehedi.html"
+         }else if (test.value == "BY0856894"){
+             window.location.href = "ziaul.html"
+         }else if (test.value == "A01789489"){
+             window.location.href = "shamsu.html"
+         }else if (test.value == "EJ0990613"){
+             window.location.href = "arman.html"
+         }else if (test.value == "EH0641059"){
+             window.location.href = "samim.html"
+         }else if (test.value == "EH0635157"){
+             window.location.href = "akonda.html"
+         }else if (test.value == "EL0652784"){
+             window.location.href = "amin.html"
+         }else if (test.value == "A01893559"){
+             window.location.href = "hye.html"
+         }else if (test.value == "A01300291"){
+             window.location.href = "billal.html"
+         }else if (test.value == "BY0204685"){
+             window.location.href = "alal.html"
+         }else if (test.value == "EK0714717"){
+             window.location.href = "oli.html"
+         }
+         else{
+              alert("invalid Passport")
+         }
+           }
+    </script>
+
+</body>
+</html>
